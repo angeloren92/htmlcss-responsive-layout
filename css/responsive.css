@@ -61,6 +61,8 @@
 
     .recipe-video {
         flex: 70% 1 1;
+        max-height: 440px;
+        max-width: 775px;
     }
 
     .recipe-info {
