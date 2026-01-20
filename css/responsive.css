@@ -49,8 +49,26 @@
 
 /* Screen view */
 @media screen and (min-width: 992px) {
-    
+
     .recipe-name {
         font-size: 2.5em;
     }
+
+    .recipe-card {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .recipe-video {
+        flex: 70% 1 1;
+    }
+
+    .recipe-info {
+        flex: 30% 1 1;
+    }
+
+    .quick-notes ul {
+        display: block;
+    }
+
 }
