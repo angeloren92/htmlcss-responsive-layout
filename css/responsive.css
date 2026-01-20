@@ -71,4 +71,8 @@
         display: block;
     }
 
+    .social-networks .label {
+        display: inline;
+    }
+
 }
