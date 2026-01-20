@@ -1,20 +1,21 @@
-/*  */
+/* general rule */
+main {
+    font-family: Montserrat, 'Helvetica Neue', sans-serif;
+}
 
+.logo {
+    font-family: 'Nerko One', cursive;
+}
 
 /* Tablet view */
 @media screen and (min-width: 768px) {
 
     main {
         padding: 55px;
-        font-family: Montserrat, 'Helvetica Neue', sans-serif;
     }
 
     #topbar {
         justify-content: start;
-    }
-
-    .logo {
-        font-family: 'Nerko One', cursive;
     }
 
     .recipe-origin {
